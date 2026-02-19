@@ -2,6 +2,12 @@
 
 {{ cookiecutter.project_description }}
 
+### References
+
+[Adobe Variable Data Process Overview](https://www.christianda.com/blog-variable-data.html)
+[Adobe Variable Importer Script Source](https://github.com/Silly-V/Adobe-Illustrator/blob/master/Variable%20Importer/VariableImporter.jsx)
+
+
 ## About the Project
 
 **{project_statement}**
