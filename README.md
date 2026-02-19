@@ -1,9 +1,11 @@
-# {{ cookiecutter.project_name }}
+# DSAC Data Portraits
 
 {{ cookiecutter.project_description }}
 
 ### References
 
+[Giorgia Lupi TED Data Portraits](https://www.pentagram.com/work/ted-data-portraits/story)
+[Giorgia Lupi Renewing Democracy Data Portriats](https://www.linkedin.com/posts/cherylnorthey_another-example-of-giorgia-lupis-genius-activity-7203497119616258048-Yt7c)
 [Adobe Variable Data Process Overview](https://www.christianda.com/blog-variable-data.html)
 [Adobe Variable Importer Script Source](https://github.com/Silly-V/Adobe-Illustrator/blob/master/Variable%20Importer/VariableImporter.jsx)
 
