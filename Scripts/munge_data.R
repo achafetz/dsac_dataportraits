@@ -53,7 +53,7 @@ library(googlesheets4)
     mutate(role = role %>%
              str_replace_all(" ", "-") %>% 
              tolower(),
-           role = str_glue("role_{role}.{format}"))
+           role = str_glue("dp_role_{role}.{format}"))
   
   #clean location
   # list.files("images", "loc")
