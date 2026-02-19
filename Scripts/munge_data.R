@@ -20,7 +20,7 @@ library(googlesheets4)
   sheet_id <- as_sheets_id("1Efk9WuKxj_tN8dhWQj2JRURYnQAFfjqjL1-EDwGicc4")
   
   #graphic format
-  format <- "svg"
+  format <- "png"
   
 # IMPORT ------------------------------------------------------------------
   
