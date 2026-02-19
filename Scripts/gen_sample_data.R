@@ -25,7 +25,7 @@
 
 # QUESTION POSSIBLE ANSWERS -----------------------------------------------
 
-  opts_role <- c("Engineer", "Designer", "Product Manager", "Front Office", "Data Scientist")
+  opts_role <- c("Engineer", "Designer", "Product Manager", "Data Scientist", "Front Office")
   opts_location <- c("Atlanta", "Baltimore", "Boston", "Chicago", "DC", "Dallas", "Denver", "Kansas City", "New York", "Philadelphia", "San Francisco", "Seattle")
   opts_years <- seq(1:15)
   opts_value <- c("Embrace inclusion", "Listen first", "Work Open", "Amplify Impact", "Champion Resilience")
