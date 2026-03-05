@@ -6,6 +6,8 @@ Data Portraits is a team ice-breaker and data literacy exercise for Digital Serv
 
 Data is not just numbers in a spreadsheet, it is the story of who we are. Data Portraits invites DSAC team members to see themselves as data, encoding their experiences, rhythms, and values into a personal visual artifact. Inspired by Georgia Lupi's Dear Data and TED Data Portraits project, this exercise bridges the gap between raw information and human connection, using Google Forms, R, and Adobe Illustrator to turn survey responses into one-of-a-kind badges that celebrate the individuality within our team.
 
+<img width="1290" height="713" alt="Image" src="https://github.com/user-attachments/assets/13c8f5b1-0609-4c6a-87a9-b2fb3b2fdc8d" />
+
 ### References
 
   -  [Giorgia Lupi TED Data Portraits](https://www.pentagram.com/work/ted-data-portraits/story)
@@ -35,12 +37,13 @@ A list of core team members responsible for the code and documentation in this r
 ├── AI
 ├── COMMUNITY.md
 ├── Data
+├── Documents
 ├── Graphics
 ├── Images
 ├── LICENSE
 ├── README.md
 ├── Scripts
-├── dsac_dataportraits.Rproj
+├── SECURITY.md
 └── repolinter.json
 ```
 
