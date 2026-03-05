@@ -1,85 +1,48 @@
 # DSAC Data Portraits
 
-{{ cookiecutter.project_description }}
-
-### References
-
-[Giorgia Lupi TED Data Portraits](https://www.pentagram.com/work/ted-data-portraits/story)
-[Giorgia Lupi Renewing Democracy Data Portriats](https://www.linkedin.com/posts/cherylnorthey_another-example-of-giorgia-lupis-genius-activity-7203497119616258048-Yt7c)
-[Adobe Variable Data Process Overview](https://www.christianda.com/blog-variable-data.html)
-[Adobe Variable Importer Script Source](https://github.com/Silly-V/Adobe-Illustrator/blob/master/Variable%20Importer/VariableImporter.jsx)
-
+Data Portraits is a team ice-breaker and data literacy exercise for Digital Services at CMS (DSAC) that transforms personal survey responses (spanning role, location, values, hobbies, and more) into unique, visual badges, offering a playful introduction to data humanism and the idea that data exists in every aspect of our lives.
 
 ## About the Project
 
-**{project_statement}**
+Data is not just numbers in a spreadsheet, it is the story of who we are. Data Portraits invites DSAC team members to see themselves as data, encoding their experiences, rhythms, and values into a personal visual artifact. Inspired by Georgia Lupi's Dear Data and TED Data Portraits project, this exercise bridges the gap between raw information and human connection, using Google Forms, R, and Adobe Illustrator to turn survey responses into one-of-a-kind badges that celebrate the individuality within our team.
 
-<!---
+### References
+
+  -  [Giorgia Lupi TED Data Portraits](https://www.pentagram.com/work/ted-data-portraits/story)
+  -  [Giorgia Lupi Renewing Democracy Data Portriats](https://www.linkedin.com/posts/cherylnorthey_another-example-of-giorgia-lupis-genius-activity-7203497119616258048-Yt7c)
+  -  [Adobe Variable Data Process Overview](https://www.christianda.com/blog-variable-data.html)
+  -  [Adobe Variable Importer Script Source](https://github.com/Silly-V/Adobe-Illustrator/blob/master/Variable%20Importer/VariableImporter.jsx)
+
 ### Project Vision
-**{project vision}** -->
+To cultivate a culture of data curiosity and empathy within DSAC, where every team member understands that data is a human endeavor, and that thoughtful design can make even the most personal information meaningful, accessible, and beautiful.
 
-<!--
 ### Project Mission
-**{project mission}** -->
+To engage DSAC staff in a hands-on, low-barrier exploration of data humanism by collecting personal data through a structured survey, processing it through a reproducible R-based pipeline, and rendering individualized visual badges in Adobe Illustrator — fostering team connection, sparking conversations about data encoding, and demonstrating that data storytelling starts with people.
 
-<!--
-### Agency Mission
-TODO: Good to include since this is an agency-led project -->
+### Tech Stack
 
-<!--
-### Team Mission
-TODO: Good to include since this is an agency-led project -->
+Google Forms → API → R (data munging) → Adobe Illustrator
 
-<!--
 ## Core Team
 
 A list of core team members responsible for the code and documentation in this repository can be found in [COMMUNITY.md](COMMUNITY.md).
--->
 
-<!--
+
 ## Repository Structure
 
-TODO: Including the repository structure helps viewers quickly understand the project layout. Using the "tree -d" command can be a helpful way to generate this information, but, be sure to update it as the project evolves and changes over time.
-
-**{list directories and descriptions}**
-
-TODO: Add a 'table of contents" for your documentation. Tier 0/1 projects with simple README.md files without many sections may or may not need this, but it is still extremely helpful to provide "bookmark" or "anchor" links to specific sections of your file to be referenced in tickets, docs, or other communication channels.
-
-**{list of .md at top directory and descriptions}**
-
--->
-
-<!---
-## Local Development
-
- TODO - with example below:
-This project is monorepo with several apps. Please see the [api](./api/README.md) and [frontend](./frontend/README.md) READMEs for information on spinning up those projects locally. Also see the project [documentation](./documentation) for more info.
--->
-
-<!--
-## Coding Style and Linters
-
-TODO - Add the repo's linting and code style guidelines
-
-Each application has its own linting and testing guidelines. Lint and code tests are run on each commit, so linters and tests should be run locally before committing.
- -->
-
-<!---
-## Branching Model
-
-TODO - with example below:
-This project follows [trunk-based development](https://trunkbaseddevelopment.com/), which means:
-
-* Make small changes in [short-lived feature branches](https://trunkbaseddevelopment.com/short-lived-feature-branches/) and merge to `main` frequently.
-* Be open to submitting multiple small pull requests for a single ticket (i.e. reference the same ticket across multiple pull requests).
-* Treat each change you merge to `main` as immediately deployable to production. Do not merge changes that depend on subsequent changes you plan to make, even if you plan to make those changes shortly.
-* Ticket any unfinished or partially finished work.
-* Tests should be written for changes introduced, and adhere to the text percentage threshold determined by the project.
-
-This project uses **continuous deployment** using [Github Actions](https://github.com/features/actions) which is configured in the [./github/workflows](.github/workflows) directory.
-
-Pull-requests are merged to `main` and the changes are immediately deployed to the development environment. Releases are created to push changes to production.
--->
+```
+.
+├── AI
+├── COMMUNITY.md
+├── Data
+├── Graphics
+├── Images
+├── LICENSE
+├── README.md
+├── Scripts
+├── dsac_dataportraits.Rproj
+└── repolinter.json
+```
 
 ## Policies
 
