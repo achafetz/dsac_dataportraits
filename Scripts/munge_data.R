@@ -1,10 +1,10 @@
 # PROJECT:  dsac_dataportraits
 # PURPOSE:  munge user data to export to Illustrator
-# AUTHOR:   A.Chafetz | USAID
+# AUTHOR:   A.Chafetz | CMS
 # REF ID:   7a4f992d 
 # LICENSE:  MIT
 # DATE:     2026-02-19
-# UPDATED: 
+# UPDATED:  2026-02-05
 
 # DEPENDENCIES ------------------------------------------------------------
   
@@ -13,9 +13,6 @@ library(googlesheets4)
 
 # GLOBAL VARIABLES --------------------------------------------------------
   
-  #Google auth
-  gs4_auth()
-
   #google sheet id
   sheet_id <- as_sheets_id("1Efk9WuKxj_tN8dhWQj2JRURYnQAFfjqjL1-EDwGicc4")
   
@@ -34,6 +31,7 @@ library(googlesheets4)
                      'name',
                      'email',
                      'role',
+                     'start',
                      'location',
                      'years',
                      'value',
