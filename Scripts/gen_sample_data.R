@@ -1,10 +1,10 @@
 # PROJECT:  dsac_dataportraits
-# PURPOSE:  generate a dummy dataset fo r
+# PURPOSE:  generate a dummy dataset for testing
 # AUTHOR:   A.Chafetz | CMS
 # REF ID:   cca09635 
 # LICENSE:  CC0
 # DATE:     2026-02-19
-# UPDATED: 
+# UPDATED:  2026-03-05
 
 # DEPENDENCIES ------------------------------------------------------------
   
@@ -14,7 +14,6 @@
 
 # GLOBAL VARIABLES --------------------------------------------------------
 
-  drive_auth()  
 
   #google sheets id
   sheet_id <- as_id("1Efk9WuKxj_tN8dhWQj2JRURYnQAFfjqjL1-EDwGicc4")
@@ -27,7 +26,8 @@
 
   opts_role <- c("Engineer", "Designer", "Product Manager", "Data Scientist", "Front Office")
   opts_location <- c("Atlanta", "Baltimore", "Boston", "Chicago", "DC", "Dallas", "Denver", "Kansas City", "New York", "Philadelphia", "San Francisco", "Seattle")
-  opts_years <- seq(1:15)
+  opts_years <- 1:15
+  opts_start <- 2022:2026
   opts_value <- c("Embrace inclusion", "Listen first", "Work Open", "Amplify Impact", "Champion Resilience")
   opts_rhythm <- c("Deep focus blocks with minimal interruptions", "Collaborative sessions with the team", "A mix of solo and group work", "Wherever the day takes me")
   opts_hobbies <- c("Physical: Body-focused activities (sports, hiking, yoga, birdwatching)", "Creative: Making/expressing (art, music, crafts, woodworking, cooking)", "Social: People-centered (performance, volunteering, clubs, team sports)", "Mental: Mind-focused (puzzles, reading, learning, games)", "Collecting: Acquisition and curation")
@@ -44,6 +44,7 @@
     name = sample(fruit, n) %>% str_to_title(),
     email = paste0(tolower(name), ".fruit@cms.hhs.gov"),
     role = sample(opts_role, n, replace = TRUE),
+    start = sample(opts_start, n, replace = TRUE),
     location = sample(opts_location, n, replace = TRUE),
     years = sample(opts_years, n, replace = TRUE),
     value = sample(opts_value, n, replace = TRUE),
